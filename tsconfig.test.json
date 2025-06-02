@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "types": ["vitest/globals", "jsdom", "vite/client", "@testing-library/jest-dom"],
+    "jsx": "preserve",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "include": [
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "tests/**/*.vue",
+    "vitest.setup.ts",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/__tests__/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist", "**/e2e/**"]
+}
