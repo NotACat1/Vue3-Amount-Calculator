@@ -11,7 +11,7 @@ modern reactivity system.
 > - Event history is tracked
 > - All logic is traceable via `localStorage` and logs
 
-📍 **[Demo (GitHub Pages)](https://YOUR-USERNAME.github.io/vue3-amount-calculator)**
+📍 **[Demo (GitHub Pages)](https://notacat1.github.io/Vue3-Amount-Calculator/)**
 
 ---
 
@@ -46,7 +46,7 @@ modern reactivity system.
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR-USERNAME/vue3-amount-calculator.git
+[git clone https://github.com/YOUR-USERNAME/vue3-amount-calculator.git](https://github.com/NotACat1/Vue3-Amount-Calculator.git)
 cd vue3-amount-calculator
 
 # Install dependencies
