@@ -1,8 +1,8 @@
 {
-  "name": "vite-vue-pinata",
+  "name": "vue3-amount-calculator",
   "version": "0.1.0",
   "private": true,
-  "description": "Vue + TypeScript + Pinia + SCSS + Bootstrap",
+  "description": "Vue3-Amount-Calculator is a mini-application built with Vue 3 and TypeScript, featuring three interconnected fields (price, quantity, and amount) that automatically recalculate when any of them changes. The data can be sent to a mock backend, and the operation result is logged and stored in localStorage. The app displays current values, event history, and simulates server interaction with delays and conditional success/failure responses.",
   "homepage": "https://notacat1.github.io/Vite-Vue-Pinata/",
   "repository": {
     "type": "git",
@@ -11,8 +11,6 @@
   "keywords": [
     "Vue",
     "Vue Router",
-    "Pinia",
-    "SCSS",
     "Bootstrap",
     "TypeScript",
     "Husky",
