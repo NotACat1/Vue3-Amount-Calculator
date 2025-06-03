@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Trading-Calculator/sw.js', { scope: '/Trading-Calculator/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Vue3-Amount-Calculator/sw.js', { scope: '/Vue3-Amount-Calculator/' })})}
