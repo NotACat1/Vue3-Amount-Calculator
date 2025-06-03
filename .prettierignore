@@ -1,0 +1,34 @@
+# Игнорируемые директории
+/node_modules
+/dist
+/coverage
+/.next
+/.out
+/.cache
+/.vscode
+/.idea
+/.husky
+
+# Игнорируемые файлы
+*.min.js
+*.min.css
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.log
+*.lock
+*.patch
+*.diff
+.DS_Store
+Thumbs.db
+
+# Специфичные файлы проекта
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+*.mdx
+__snapshots__
+*.d.ts
