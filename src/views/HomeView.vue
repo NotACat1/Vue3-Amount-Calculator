@@ -1,24 +1,19 @@
 <script setup lang="ts">
-import { useCounterStore } from '@/stores/counter'
+/**
+ * Importing the OrderForm component for handling order creation/management
+ * @module OrderForm
+ */
+import OrderForm from '@/components/OrderForm.vue'
 
-const counter = useCounterStore()
-const increment = () => counter.increment()
+/**
+ * Importing the LogViewer component for displaying application logs
+ * @module LogViewer
+ */
+import LogViewer from '@/components/LogViewer.vue'
 </script>
 
 <template>
-  <div class="container mt-5">
-    <h1>Home Page</h1>
-    <p class="lead">Welcome to the Vue 3 + Bootstrap + Pinia + TS App!</p>
-
-    <div class="mb-4">
-      <img
-        src="@/assets/images/vue.svg"
-        alt="Description of image"
-        class="img-fluid rounded"
-        style="max-height: 300px"
-      />
-    </div>
-
-    <button class="btn btn-primary" @click="increment">Count: {{ counter.count }}</button>
-  </div>
+  <!-- Main application layout containing two primary components -->
+  <OrderForm />
+  <LogViewer />
 </template>
